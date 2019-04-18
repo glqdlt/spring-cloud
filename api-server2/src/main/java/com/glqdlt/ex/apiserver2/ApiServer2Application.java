@@ -16,7 +16,7 @@ public class ApiServer2Application {
 
     @GetMapping("/api/greeting")
     public String greeting(){
-        return "i'm number 1 server";
+        return "i'm number 2 server";
     }
 
 }
